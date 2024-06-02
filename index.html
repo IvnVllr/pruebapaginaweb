@@ -1,1 +1,830 @@
-<h1>Prueba de pagina web</h1>
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./Imagenes/Icono/Escudo/Escudo_Decano.ico">
+        <link rel="stylesheet" href="./Css/reset.css">
+        <link rel="stylesheet" href="./Css/style.css">
+        <link rel="stylesheet" href="./Css/barra_navegacion/barra_navegacion.css">
+        <link rel="stylesheet" href="./Css/barra_navegacion/responsive_navegacion.css">
+        <link rel="stylesheet" href="./Css/responsive.css">
+        <link rel="stylesheet" href="./Css/style_dark.css">
+        <script defer src="./js/botones_fixture.js"></script> 
+        <script defer src="./js/barra_navegacion.js"></script> 
+        <script defer src="./js/barra_busqueda.js"></script> 
+        <script defer src="./js/botones_scroll.js"></script> 
+        <title>| Decano - Inicio</title>
+    </head>
+    <body id="body">
+        <header id="header_barra_navegacion">
+            <nav id="barra_navegacion" class="barra_navegacion">
+                <ul class="barra_nav_ul">
+                     <div class="barra_nav_li">
+                        <a class="barra_nav_a_logo" href="https://www.youtube.com/shorts/SXHMnicI6Pg">
+                            <img class="nav_logo" src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Logo decano">
+                        </a>
+                    </div>                   
+                    <li class="barra_nav_li ocultar_navegacion barra_nav_li_inicio"><a href="index.html" role="button" class="barra_nav_a barra_nav_a_inicio" >Inicio</a>
+        
+                    </li>
+                    <li class="barra_nav_li ocultar_navegacion barra_nav_li_club"><a href="#" role="button" class="barra_nav_a barra_nav_a_club">El Club</a>
+                        <div class="lista_dentro_nav_club ocultar_navegacion lista_dentro_nav_todos">
+                            <ul class="lista_dentro_nav_ul">
+                                <li class="lista_dentro_nav_ul_li"><a class="lista_dentro_nav_ul_li_a" href="#" role="button" class="barra_nav_re_a">Autoridades</a></li>
+                                <li class="lista_dentro_nav_ul_li"><a class="lista_dentro_nav_ul_li_a" href="#" role="button" class="barra_nav_re_a">sponsors</a></li>
+                                <li class="lista_dentro_nav_ul_li"><a class="lista_dentro_nav_ul_li_a" href="#" role="button" class="barra_nav_re_a">Alojamiento</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="barra_nav_li ocultar_navegacion barra_nav_li_streamen"><a href="#" role="button" class="barra_nav_a barra_nav_a_streamen">Streamen</a>
+                        <div class="lista_dentro_nav_streamen ocultar_navegacion lista_dentro_nav_todos">
+                            <ul class="lista_dentro_nav_ul">
+                                <li class="lista_dentro_nav_ul_li"><a class="lista_dentro_nav_ul_li_a" href="#" role="button" class="barra_nav_re_a">Facebook</a></li>
+                                <li class="lista_dentro_nav_ul_li"><a class="lista_dentro_nav_ul_li_a" href="#" role="button" class="barra_nav_re_a">Youtube</a></li>
+                                <li class="lista_dentro_nav_ul_li"><a class="lista_dentro_nav_ul_li_a" href="#" role="button" class="barra_nav_re_a">Kick</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="barra_nav_li ocultar_navegacion barra_nav_li_actividades"><a href="#" role="button" class="barra_nav_a barra_nav_a_actividades">Actividades</a>
+                        <div class="lista_dentro_nav_actividades ocultar_navegacion lista_dentro_nav_todos">
+                            <ul class="lista_dentro_nav_ul">
+                                <li class="lista_dentro_nav_ul_li"><a class="lista_dentro_nav_ul_li_a" href="#" role="button" class="barra_nav_re_a">Fútbol</a></li>
+                                <li class="lista_dentro_nav_ul_li"><a class="lista_dentro_nav_ul_li_a" href="#" role="button" class="barra_nav_re_a">Artes Marciales</a></li>
+                                <li class="lista_dentro_nav_ul_li"><a class="lista_dentro_nav_ul_li_a" href="#" role="button" class="barra_nav_re_a">Salón</a></li>
+                            </ul>
+                        </div> 
+                    </li>
+                    <li class="barra_nav_li ocultar_navegacion barra_nav_li_contactos"><a href="#" role="button" class="barra_nav_a">Contacto</a></li>
+                    <li class="barra_nav_li ocultar_navegacion">
+                        <label id="buscador_label" class="buscador_label" for="buscador">
+                            <img class="buscar_icono" id="buscar_icono" src="./Imagenes/Icono/Objetos/Lupa_w.png" alt="#">
+                        </label>
+                    </li>
+                    <hr class="ocultar_navegacion" />
+                    <li id="menu_hamburguesa" class="barra_nav_li menu_hamburguesa">
+                        <img class="menu_hamburguesa_img" id="menu_hamburguesa_img" src="./Imagenes/Icono/Objetos/menu_hamburguesa.png" alt="#">
+                    </li>
+                </ul>
+                <ul class="barra_nav_sidebar">
+                    <div class="barra_nav_imagenes">
+                        <a class="menu_logo_a" href="https://www.youtube.com/shorts/SXHMnicI6Pg">
+                           <img class="nav_logo_re" src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Logo decano">
+                        </a>
+                        <a class="menu_logo_a menu_cerrar" id="menu_logo">
+                            <img class="menu_cerrar" id="menu_cerrar" src="./Imagenes/Icono/Objetos/cerrar.png" alt="#">
+                        </a>
+                   </div>                   
+                   <li class="barra_nav_re_li"><a href="index.html" role="button" class="barra_nav_re_a" >Inicio</a></li>
+                   <li class="barra_nav_re_li" id="club_li_re"><a href="#" role="button" class="barra_nav_re_a">El Club</a></li>
+                   <li class="barra_nav_re_li"><a href="#" role="button" class="barra_nav_re_a">Autoridades</a></li>
+                   <li class="barra_nav_re_li"><a href="#" role="button" class="barra_nav_re_a">Alojamiento</a></li>
+                   <li class="barra_nav_re_li"><a href="#" role="button" class="barra_nav_re_a">sponsors</a></li>
+                   <li class="barra_nav_re_li" id="streamen_li_re" ><a href="#" role="button" class="barra_nav_re_a">Streamen</a></li>
+                   <li class="barra_nav_re_li"><a href="#" role="button" class="barra_nav_re_a">Facebook</a></li>
+                   <li class="barra_nav_re_li"><a href="#" role="button" class="barra_nav_re_a">Youtube</a></li>
+                   <li class="barra_nav_re_li"><a href="#" role="button" class="barra_nav_re_a">Kick</a></li>
+                   <li class="barra_nav_re_li" id="actividades_li_re"><a href="#" role="button" class="barra_nav_re_a">Actividades</a></li>
+                   <li class="barra_nav_re_li"><a href="#" role="button" class="barra_nav_re_a">Fútbol</a></li>
+                   <li class="barra_nav_re_li"><a href="#" role="button" class="barra_nav_re_a">Artes Marciales</a></li>
+                   <li class="barra_nav_re_li"><a href="#" role="button" class="barra_nav_re_a">Salón</a></li>
+                   <li class="barra_nav_re_li" id="contacto_li_re" ><a href="#" role="button" class="barra_nav_re_a">Contacto</a></li>
+               </ul>
+                
+            </nav>
+        </header>
+        <!-- Barra de busqueda --> 
+        <div>
+            <div id="contenedor_busqueda" class="contenedor_busqueda">
+                <div>
+                    <button id="buscar_accion" class="buscar_accion boton_busqueda" type="submit">
+                        <img class="buscar_icono_accion" src="./Imagenes/Icono/Objetos/Lupa_w.png" alt="#">
+                    </button>
+                    <input type="text" id="buscador" placeholder="Buscar...">
+                    <button id="buscar_cerrar_busqueda" class="buscar_cerrar_busqueda boton_busqueda" type="button">
+                        <img class="menu_cerrar_buscar" id="menu_cerrar_buscar" src="./Imagenes/Icono/Objetos/cerrar.png" alt="#">
+                    </button>
+                </div>  
+            </div>
+            <ul id="caja_busqueda_resultados">
+                <li><a href="#"><img class="buscar_icono_dentro" src="./Imagenes/Icono/Objetos/Lupa_w.png" alt="#">La 2011 negro del Deca</a></li>
+                <li><a href="#"><img class="buscar_icono_dentro" src="./Imagenes/Icono/Objetos/Lupa_w.png" alt="#">La 2010 del Deca</a></li>
+                <li><a href="#"><img class="buscar_icono_dentro" src="./Imagenes/Icono/Objetos/Lupa_w.png" alt="#">La 2014 Decana</a></li>
+                <li><a href="#"><img class="buscar_icono_dentro" src="./Imagenes/Icono/Objetos/Lupa_w.png" alt="#">Atlético 2011 vs El Brete</a></li>
+            </ul>
+            <div id="portada-contenedor-busqueda"></div>
+        </div>
+        <main>
+            <!-- Botones Scrolls -->
+            <div id="contenedor_botones_scrolls" class="contenedor_botones_scrolls">
+                <button id="botones_scrolls_arriba" class="botones_scrolls botones_scrolls_arriba"> 
+                    <svg id="flecha_arriba" class="flecha_arriba icon_boton_scroll" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-528 296-344l-56-56 240-240 240 240-56 56-184-184Z"/>
+                        <path xmlns="http://www.w3.org/2000/svg" d="M480-528 296-344l-56-56 240-240 240 240-56 56-184-184Z"/>
+                    </svg>
+                </button>
+                <button id="botones_scrolls_whatsapp" class="botones_scrolls botones_scrolls_whatsapp"> 
+                    <img id="whatsapp_icono" class="whatsapp_icono icon_boton_scroll" src="./Imagenes/Icono/Objetos/svg/whatsapp.svg" alt="">
+                </button>
+                <button id="botones_scrolls_nocturno" class="botones_scrolls botones_scrolls_nocturno">  
+                    <svg id="dia_icon" class="dia_icon icon_boton_scroll" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                        <path d="M440-760v-160h80v160h-80Zm266 110-56-56 113-114 56 57-113 113Zm54 210v-80h160v80H760Zm3 299L650-254l56-56 114 112-57 57ZM254-650 141-763l57-57 112 114-56 56Zm-14 450h180q25 0 42.5-17.5T480-260q0-25-17-42.5T421-320h-51l-20-48q-14-33-44-52.5T240-440q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T40-320q0-83 58.5-141.5T240-520q60 0 109.5 32.5T423-400q58 0 97.5 43T560-254q-2 57-42.5 95.5T420-120H240Zm320-134q-5-20-10-39t-10-39q45-19 72.5-59t27.5-89q0-66-47-113t-113-47q-60 0-105 39t-53 99q-20-5-41-9t-41-9q14-88 82.5-144T480-720q100 0 170 70t70 170q0 77-44 138.5T560-254Zm-79-226Z"/>
+                    </svg>
+                    <svg id="noche_icon" class="noche_icon icon_boton_scroll" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                        <path d="M504-425Zm20 385H420l20-12.5q20-12.5 43.5-28t43.5-28l20-12.5q81-6 149.5-49T805-285q-86-8-163-43.5T504-425q-61-61-97-138t-43-163q-77 43-120.5 118.5T200-444v12l-12 5.5q-12 5.5-26.5 11.5T135-403.5l-12 5.5q-2-11-2.5-23t-.5-23q0-146 93-257.5T450-840q-18 99 11 193.5T561-481q71 71 165.5 100T920-370q-26 144-138 237T524-40Zm-284-80h180q25 0 42.5-17.5T480-180q0-25-17-42.5T422-240h-52l-20-48q-14-33-44-52.5T240-360q-50 0-85 34.5T120-240q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T40-240q0-83 58.5-141.5T240-440q60 0 109.5 32.5T423-320q57 2 97 42.5t40 97.5q0 58-41 99t-99 41H240Z"/>
+                    </svg>
+                </button>
+            </div>
+
+
+            <div class="contenedor_main_header">
+                <div class="portada">
+                    <a href="#">
+                        <img src="./Imagenes/atletico_posadas/portada.jpg" alt="Deca vs Guarani" class="imagen_noticia">
+                    </a>
+                </div>
+                <section class="texto_portada">
+                    <p class="representante_portada"><a href="">Noticias: Figueredo Jonatan</a></p>
+                    <div class="titulo_noticias">
+                        <h1 class="titulo_portada"> 
+                            <a href="">
+                                Un arranque a medias: Pasaron más de cuatro meses desde el último partido oficial y el fútbol vuelve por fin a la Liga Posadeña, pero no como lo esperaba.
+                            </a>
+                        </h1>
+                    </div>
+                    <p class="fecha_portada">29 abril, 2023</p>
+                </section>
+            </div>
+            <!-- Botones -->
+            <div class="botones_fixture" id="botones_fixture"> 
+                <button id="boton_partidos_proximos" class="boton_liga activo"><img class="boton_imagen" id="pelota" src="./Imagenes/Icono/Objetos/pelota.png" alt="Próximo"><p>Próximos Partidos</p></button>
+                <button id="boton_liga_pos" class="boton_liga"><img class="boton_imagen" id="liga_posadenha_boton" src="./Imagenes/Icono/Equipos_escudo/liga_posadenha_de_futbol.png" alt="Liga Posadeña de Fútbol"><p>Liga Posadeña de Fútbol</p></button>
+                <button id="boton_liga_pos_fem" class="boton_liga"><img class="boton_imagen" id="liga_posadenha_fem" src="./Imagenes/Icono/Equipos_escudo/liga_posadenha_fem.png" alt="Liga Posadeña de Fútbol Femenino"><p>Liga Posadeña de Fútbol Femenino</p></button>
+            </div>
+            <div class="contenedor_fixture">
+                <!-- Proximo partido -->
+                <div id="proximos_partidos_lista" class="proximo_partido" style="display: '';">
+                    <div class="fixture_liga">
+                        <img src="./Imagenes/Icono/Objetos/pelota.png" alt="Liga Posadeña de Fútbol" class="fixture_logo_liga">
+                        <section class="lugar_nombre_liga">
+                            <div class="fixture_liga_nombre">
+                                <p class="nombre_liga">Próximos Patidos a jugar</p>
+                            </div>
+                            <div class="fixture_liga_ciudad">
+                                <p class="nombre_liga_ciudad">Posadas Misiones</p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="fixture_liga_próximo">
+                        <img src="./Imagenes/Icono/Equipos_escudo/liga_posadenha_de_futbol.png" alt="Liga Posadeña de Fútbol" class="fixture_logo_liga_proximo">
+                        <section class="lugar_nombre_liga_proximo">
+                            <div class="fixture_liga_nombre_proximo">
+                                <p class="nombre_liga_proximo">Liga Posadeña de Fútbol</p>
+                            </div>
+                            <div class="fixture_liga_ciudad_proximo">
+                                <p class="nombre_liga_ciudad_proximo">Posadas Misiones</p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="fixture_liga_zona_a">
+                        <div class="fixture_lista">
+                            <li class="fixture_partidos">
+                                <div class="fixture_nombre_equipo">
+                                    <p class="nombre_equipo">Club Atlético Posadas</p>
+                                </div>
+                                <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                <section class="fixture_texto_partidos">
+                                    <div class="fixture_estado_partido">
+                                        <p class="estado_partido">Sin resultados</p>
+                                    </div>
+                                    <div class="fixture_puntaje_final">
+                                        <p class="puntaje_final">VS</p>
+                                    </div>
+                                    <div class="fixture_fecha_partido">
+                                        <p class="fecha_partido">Fecha 7</p>
+                                    </div>
+                                </section>
+                                <img src="./Imagenes/Icono/Equipos_escudo/Club_crucero_del_norte.png" alt="Club Crucero del Norte" class="fixture_imagen_equipo">
+                                <div class="fixture_nombre_equipo">
+                                    <p class="nombre_equipo">Club Crucero del Norte</p>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="fixture_liga_próximo">
+                        <img src="./Imagenes/Icono/Equipos_escudo/liga_posadenha_fem.png" alt="Liga Posadeña de Fútbol" class="fixture_logo_liga_proximo">
+                        <section class="lugar_nombre_liga_proximo">
+                            <div class="fixture_liga_nombre_proximo">
+                                <p class="nombre_liga_proximo">Liga Posadeña de Fútbol Femenino</p>
+                            </div>
+                            <div class="fixture_liga_ciudad_proximo">
+                                <p class="nombre_liga_ciudad_proximo">Posadas Misiones</p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="fixture_liga_zona_a">
+                        <div class="fixture_lista">
+                            <li class="fixture_partidos">
+                                <div class="fixture_nombre_equipo">
+                                    <p class="nombre_equipo">Club Atlético Villa Cabello</p>
+                                </div>
+                                <img src="./Imagenes/Icono/Equipos_escudo/club_atletico_villa_cabello.png" alt="Club Atlético Villa Cabello" class="fixture_imagen_equipo">
+                                <section class="fixture_texto_partidos">
+                                    <div class="fixture_estado_partido">
+                                        <p class="estado_partido">Sin resultados</p>
+                                    </div>
+                                    <div class="fixture_puntaje_final">
+                                        <p class="puntaje_final">VS</p>
+                                    </div>
+                                    <div class="fixture_fecha_partido">
+                                        <p class="fecha_partido">Fecha 7</p>
+                                    </div>
+                                </section>
+                                <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                <div class="fixture_nombre_equipo">
+                                    <p class="nombre_equipo">Club Atlético Posadas</p>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                <!-- Liga posadeña A -->
+                <div id="fixture_liga_a_posadenha" class="fixture_liga_posadenha" style="display: none;">
+                    <div class="fixture_liga">
+                        <img src="./Imagenes/Icono/Equipos_escudo/liga_posadenha_de_futbol.png" alt="Liga Posadeña de Fútbol" class="fixture_logo_liga">
+                        <section class="lugar_nombre_liga">
+                            <div class="fixture_liga_nombre">
+                                <p class="nombre_liga">Liga Posadeña de Fútbol</p>
+                            </div>
+                            <div class="fixture_liga_ciudad">
+                                <p class="nombre_liga_ciudad">Posadas Misiones</p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="fixture_liga_zona_a">
+                        <div class="fixture_lista">
+                                <li class="fixture_partidos" id="fixture_partidos">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Colectiveros</p>
+                                    </div>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_colectiveros.png" alt="Club Atlético Colectiveros" class="fixture_imagen_equipo">
+                                    <section class="fixture_texto_partidos">
+                                        <div class="fixture_estado_partido">
+                                            <p class="estado_partido">Sin resultados</p>
+                                        </div>
+                                        <div class="fixture_puntaje_final">
+                                            <p class="puntaje_final">VS</p>
+                                        </div>
+                                        <div class="fixture_fecha_partido">
+                                            <p class="fecha_partido">Fecha 9</p>
+                                        </div>
+                                    </section>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Posadas</p>
+                                    </div>
+                                </li>
+                                <li class="fixture_partidos">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Bartolomé Mitre (Posadas)</p>
+                                    </div>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_mitre.png" alt="Club Atlético Bartolomé Mitre (Posadas)" class="fixture_imagen_equipo">
+                                    <section class="fixture_texto_partidos">
+                                        <div class="fixture_estado_partido">
+                                            <p class="estado_partido">Sin resultados</p>
+                                        </div>
+                                        <div class="fixture_puntaje_final">
+                                            <p class="puntaje_final">VS</p>
+                                        </div>
+                                        <div class="fixture_fecha_partido">
+                                            <p class="fecha_partido">Fecha 8</p>
+                                        </div>
+                                    </section>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Posadas</p>
+                                    </div>
+                                </li>
+                                <li class="fixture_partidos">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Posadas</p>
+                                    </div>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                    <section class="fixture_texto_partidos">
+                                        <div class="fixture_estado_partido">
+                                            <p class="estado_partido">Sin resultados</p>
+                                        </div>
+                                        <div class="fixture_puntaje_final">
+                                            <p class="puntaje_final">VS</p>
+                                        </div>
+                                        <div class="fixture_fecha_partido">
+                                            <p class="fecha_partido">Fecha 7</p>
+                                        </div>
+                                    </section>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/Club_crucero_del_norte.png" alt="Club Crucero del Norte" class="fixture_imagen_equipo">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Crucero del Norte</p>
+                                    </div>
+                                </li>
+                                <li class="fixture_partidos">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Asociación Atlético Santa Ana</p>
+                                    </div>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_santa_ana.png" alt="Asociación Atlético Santa Ana" class="fixture_imagen_equipo">
+                                    <section class="fixture_texto_partidos">
+                                        <div class="fixture_estado_partido">
+                                            <p class="estado_partido">Finalizado</p>
+                                        </div>
+                                        <div class="fixture_puntaje_final">
+                                            <p class="puntaje_final">4-1</p>
+                                        </div>
+                                        <div class="fixture_fecha_partido">
+                                            <p class="fecha_partido">Fecha 6</p>
+                                        </div>
+                                    </section>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Posadas</p>
+                                    </div>
+                                </li>
+                                <li class="fixture_partidos">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Posadas</p>
+                                    </div>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                    <section class="fixture_texto_partidos">
+                                        <div class="fixture_estado_partido">
+                                            <p class="estado_partido">Finalizado</p>
+                                        </div>
+                                        <div class="fixture_puntaje_final">
+                                            <p class="puntaje_final">4-1</p>
+                                        </div>
+                                        <div class="fixture_fecha_partido">
+                                            <p class="fecha_partido">Fecha 5</p>
+                                        </div>
+                                    </section>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_huracan.png" alt="Club Atlético Huracán(Posadas)" class="fixture_imagen_equipo">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Huracán</p>
+                                    </div>
+                                </li>
+                                <li class="fixture_partidos">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Posadas</p>
+                                    </div>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                    <section class="fixture_texto_partidos">
+                                        <div class="fixture_estado_partido">
+                                            <p class="estado_partido">Finalizado</p>
+                                        </div>
+                                        <div class="fixture_puntaje_final">
+                                            <p class="puntaje_final">4-1</p>
+                                        </div>
+                                        <div class="fixture_fecha_partido">
+                                            <p class="fecha_partido">Fecha 4</p>
+                                        </div>
+                                    </section>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/futbol_club_garupa.png" alt="Club Fútbol Garupa" class="fixture_imagen_equipo">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Fútbol Garupa</p>
+                                    </div>
+                                </li>
+                                <li class="fixture_partidos">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético La Picada</p>
+                                    </div>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_la_picada.png" alt="Club Atlético La Picada" class="fixture_imagen_equipo">
+                                    <section class="fixture_texto_partidos">
+                                        <div class="fixture_estado_partido">
+                                            <p class="estado_partido">Finalizado</p>
+                                        </div>
+                                        <div class="fixture_puntaje_final">
+                                            <p class="puntaje_final">3-4</p>
+                                        </div>
+                                        <div class="fixture_fecha_partido">
+                                            <p class="fecha_partido">Fecha 3</p>
+                                        </div>
+                                    </section>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Posadas</p>
+                                    </div>
+                                </li>
+                                <li class="fixture_partidos">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Posadas</p>
+                                    </div>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                    <section class="fixture_texto_partidos">
+                                        <div class="fixture_estado_partido">
+                                            <p class="estado_partido">Finalizado</p>
+                                        </div>
+                                        <div class="fixture_puntaje_final">
+                                            <p class="puntaje_final">1-0</p>
+                                        </div>
+                                        <div class="fixture_fecha_partido">
+                                            <p class="fecha_partido">Fecha 2</p>
+                                        </div>
+                                    </section>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/el_brete_escudo.png" alt="El Brete (Posadas)" class="fixture_imagen_equipo">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club El Brete (Posadas)</p>
+                                    </div>
+                                </li>
+                                <li class="fixture_partidos">
+                                <div class="fixture_nombre_equipo">
+                                    <p class="nombre_equipo">C.S.Y.D CORPUS</p>
+                                </div>
+                                <img src="./Imagenes/Icono/Equipos_escudo/csyd_escudo.png" alt="C.S.Y.D CORPUS" class="fixture_imagen_equipo">
+                                <section class="fixture_texto_partidos">
+                                    <div class="fixture_estado_partido">
+                                        <p class="estado_partido">Finalizado</p>
+                                    </div>
+                                    <div class="fixture_puntaje_final">
+                                        <p class="puntaje_final">3-4</p>
+                                    </div>
+                                    <div class="fixture_fecha_partido">
+                                        <p class="fecha_partido">Fecha 1</p>
+                                    </div>
+                                </section>
+                                <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                <div class="fixture_nombre_equipo">
+                                    <p class="nombre_equipo">Club Atlético posadas</p>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                <!-- Liga Posadeña Femenino -->
+                <div id="fixture_liga_femenina_posadenha" class="fixture_liga_posadenha_fem" style="display: none;">
+                    <div class="fixture_liga">
+                        <img src="./Imagenes/Icono/Equipos_escudo/liga_posadenha_fem.png" alt="Liga Posadeña de Fútbol Femenina" class="fixture_logo_liga">
+                        <section class="lugar_nombre_liga">
+                            <div class="fixture_liga_nombre">
+                                <p class="nombre_liga">Liga Posadeña de Fútbol Femenino</p>
+                            </div>
+                            <div class="fixture_liga_ciudad">
+                                <p class="nombre_liga_ciudad">Posadas Misiones</p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="fixture_liga_zona_a">
+                        <div class="fixture_lista">
+                                <li class="fixture_partidos">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Candelaria</p>
+                                    </div>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atlético_Candelaria.png" alt="Club Atlético Candelaria" class="fixture_imagen_equipo">
+                                    <section class="fixture_texto_partidos">
+                                        <div class="fixture_estado_partido">
+                                            <p class="estado_partido">Sin resultados</p>
+                                        </div>
+                                        <div class="fixture_puntaje_final">
+                                            <p class="puntaje_final">VS</p>
+                                        </div>
+                                        <div class="fixture_fecha_partido">
+                                            <p class="fecha_partido">Fecha 9</p>
+                                        </div>
+                                    </section>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Posadas</p>
+                                    </div>
+                                </li>
+                                <li class="fixture_partidos">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Posadas</p>
+                                    </div>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                    <section class="fixture_texto_partidos">
+                                        <div class="fixture_estado_partido">
+                                            <p class="estado_partido">Sin resultados</p>
+                                        </div>
+                                        <div class="fixture_puntaje_final">
+                                            <p class="puntaje_final">VS</p>
+                                        </div>
+                                        <div class="fixture_fecha_partido">
+                                            <p class="fecha_partido">Fecha 8</p>
+                                        </div>
+                                    </section>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_deportivo_social_1mayo.png" alt="Club Deportivo Social 1° Mayo" class="fixture_imagen_equipo">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Deportivo Social 1° Mayo</p>
+                                    </div>
+                                </li>
+                                <li class="fixture_partidos">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Villa Cabello</p>
+                                    </div>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico_villa_cabello.png" alt="Club Atlético Villa Cabello" class="fixture_imagen_equipo">
+                                    <section class="fixture_texto_partidos">
+                                        <div class="fixture_estado_partido">
+                                            <p class="estado_partido">Sin resultados</p>
+                                        </div>
+                                        <div class="fixture_puntaje_final">
+                                            <p class="puntaje_final">VS</p>
+                                        </div>
+                                        <div class="fixture_fecha_partido">
+                                            <p class="fecha_partido">Fecha 7</p>
+                                        </div>
+                                    </section>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Posadas</p>
+                                    </div>
+                                </li>
+                                <li class="fixture_partidos">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Posadas</p>
+                                    </div>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                    <section class="fixture_texto_partidos">
+                                        <div class="fixture_estado_partido">
+                                            <p class="estado_partido">Finalizado</p>
+                                        </div>
+                                        <div class="fixture_puntaje_final">
+                                            <p class="puntaje_final">4-1</p>
+                                        </div>
+                                        <div class="fixture_fecha_partido">
+                                            <p class="fecha_partido">Fecha 6</p>
+                                        </div>
+                                    </section>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/Club_Guarani_Antonio_Franco.png" alt="Club Guarani Antonio Franco" class="fixture_imagen_equipo">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Guarani Antonio Franco</p>
+                                    </div>
+                                </li>
+                                <li class="fixture_partidos">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Huracán(Posadas)</p>
+                                    </div>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_huracan.png" alt="Club Atlético Huracán(Posadas)" class="fixture_imagen_equipo">
+                                    <section class="fixture_texto_partidos">
+                                        <div class="fixture_estado_partido">
+                                            <p class="estado_partido">Finalizado</p>
+                                        </div>
+                                        <div class="fixture_puntaje_final">
+                                            <p class="puntaje_final">4-1</p>
+                                        </div>
+                                        <div class="fixture_fecha_partido">
+                                            <p class="fecha_partido">Fecha 5</p>
+                                        </div>
+                                    </section>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Posadas</p>
+                                    </div>
+                                </li>
+                                <li class="fixture_partidos">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Posadas</p>
+                                    </div>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                    <section class="fixture_texto_partidos">
+                                        <div class="fixture_estado_partido">
+                                            <p class="estado_partido">Finalizado</p>
+                                        </div>
+                                        <div class="fixture_puntaje_final">
+                                            <p class="puntaje_final">4-1</p>
+                                        </div>
+                                        <div class="fixture_fecha_partido">
+                                            <p class="fecha_partido">Fecha 4</p>
+                                        </div>
+                                    </section>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico_galeano.png" alt="Club Social y Deportivo Estudio Galeano" class="fixture_imagen_equipo">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Social y Deportivo Estudio Galeano</p>
+                                    </div>
+                                </li>
+                                <li class="fixture_partidos">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Andrés guacurari</p>
+                                    </div>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_andres_guacurari.png" alt="Club Andrés guacurari" class="fixture_imagen_equipo">
+                                    <section class="fixture_texto_partidos">
+                                        <div class="fixture_estado_partido">
+                                            <p class="estado_partido">Finalizado</p>
+                                        </div>
+                                        <div class="fixture_puntaje_final">
+                                            <p class="puntaje_final">3-4</p>
+                                        </div>
+                                        <div class="fixture_fecha_partido">
+                                            <p class="fecha_partido">Fecha 3</p>
+                                        </div>
+                                    </section>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Posadas</p>
+                                    </div>
+                                </li>
+                                <li class="fixture_partidos">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Atlético Posadas</p>
+                                    </div>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                    <section class="fixture_texto_partidos">
+                                        <div class="fixture_estado_partido">
+                                            <p class="estado_partido">Finalizado</p>
+                                        </div>
+                                        <div class="fixture_puntaje_final">
+                                            <p class="puntaje_final">1-0</p>
+                                        </div>
+                                        <div class="fixture_fecha_partido">
+                                            <p class="fecha_partido">Fecha 2</p>
+                                        </div>
+                                    </section>
+                                    <img src="./Imagenes/Icono/Equipos_escudo/Escudo_del_Jorge_Gibson_Brown.png" alt="Club Deportivo Jorge Gibson Brown" class="fixture_imagen_equipo">
+                                    <div class="fixture_nombre_equipo">
+                                        <p class="nombre_equipo">Club Deportivo Jorge Gibson Brown</p>
+                                    </div>
+                                </li>
+                                <li class="fixture_partidos">
+                                <div class="fixture_nombre_equipo">
+                                    <p class="nombre_equipo">Club Atlético posadas</p>
+                                </div>
+                                <img src="./Imagenes/Icono/Equipos_escudo/club_atletico.png" alt="Atlético Posadas" class="fixture_imagen_equipo">
+                                <section class="fixture_texto_partidos">
+                                    <div class="fixture_estado_partido">
+                                        <p class="estado_partido">Finalizado</p>
+                                    </div>
+                                    <div class="fixture_puntaje_final">
+                                        <p class="puntaje_final">3-4</p>
+                                    </div>
+                                    <div class="fixture_fecha_partido">
+                                        <p class="fecha_partido">Fecha 1</p>
+                                    </div>
+                                </section>
+                                <img src="./Imagenes/Icono/Equipos_escudo/club_mitre.png" alt="Club Atlético Bartolomé Mitre (Posadas)" class="fixture_imagen_equipo">
+                                <div class="fixture_nombre_equipo">
+                                    <p class="nombre_equipo">Club Atlético Bartolomé Mitre (Posadas)</p>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenedor_publicacion_noticias">
+                <section class="publicaciones_noticias">
+                    <div class="sponsors_noticias_ultima_noticia">
+                            <article class="articulo_ultima_noticia">
+                                <h1>Últimas Noticias...</h1>
+                                <article class="bloque_lista_ultima_noticia">
+                                    <a href="#">
+                                        <li class="lista_ultima_noticia">
+                                            <section class="numeracion_ultima_noticia">
+                                                <p>1</p>
+                                            </section>
+                                            <section class="titulo_fecha_ultima_noticia">
+                                                <h2 class="titulo_ultima_noticia">ATLETICO 2011 VS EL BRETE</h2>
+                                                <p class="fecha_ultima_noticia">27 mayo, 2024</p>
+                                            </section>
+                                        </li>
+                                    </a>
+                                </article>
+                                <article class="bloque_lista_ultima_noticia">
+                                    <a href="#">
+                                        <li class="lista_ultima_noticia">
+                                            <section class="numeracion_ultima_noticia">
+                                                <p>2</p>
+                                            </section>
+                                            <section class="titulo_fecha_ultima_noticia">
+                                                <h2 class="titulo_ultima_noticia">LA 2011 NEGRO DEL DECA</h2>
+                                                <p class="fecha_ultima_noticia">27 mayo, 2024</p>
+                                            </section>
+                                        </li>
+                                    </a>
+                                </article>
+                                <article class="bloque_lista_ultima_noticia">
+                                    <a href="#">
+                                        <li class="lista_ultima_noticia">
+                                            <section class="numeracion_ultima_noticia">
+                                                <p>3</p>
+                                            </section>
+                                            <section class="titulo_fecha_ultima_noticia">
+                                                <h2 class="titulo_ultima_noticia">LA 2010 DEL DECA</h2>
+                                                <p class="fecha_ultima_noticia">27 mayo, 2024</p>
+                                            </section>
+                                        </li>
+                                    </a>
+                                </article>
+                                <article class="bloque_lista_ultima_noticia">
+                                    <a href="#">
+                                        <li class="lista_ultima_noticia">
+                                            <section class="numeracion_ultima_noticia">
+                                                <p>4</p>
+                                            </section>
+                                            <section class="titulo_fecha_ultima_noticia">
+                                                <h2 class="titulo_ultima_noticia">LA 2014 DECANA</h2>
+                                                <p class="fecha_ultima_noticia">27 mayo, 2024</p>
+                                            </section>
+                                        </li>
+                                    </a>
+                                </article>
+                                <div class="sponsors">
+                                    <div class="sponosrs_ivess">
+                                       <a><img id="ivess" src="./Imagenes/Icono/sponsors/ivess_logo.svg" class="ivess" alt="Ivess"></a>
+                                    </div>
+                                </div>
+                            </article>
+                    </div>
+                    <div class="contenedor_publicaciones">
+                        <section class="encabezado_zona_publicacion">
+                            <h1>Publicaciones</h1>
+                        </section>
+                        <div class="publicaciones">
+                            <a href="#">
+                                <img class="imagen_publicacion" src="./Imagenes/Publicacion/Publicacion_1.jpg" alt="LIGA INFANTIL F6 - ATLETICO 2011 VS EL BRETE">
+                                <h1 class="titulo_publicacion">ATLETICO 2011 VS EL BRETE</h1>
+                            </a>    
+                            <p class="descripcion_publicacion">En cancha del BRETE a las 13:30hs jugo la otra 2011 frente al BRETE VERDE. Partidazo de visitante de nuestros jugadores.</p>
+                        </div>
+                        <div class="publicaciones">
+                            <a href="#">
+                                <img class="imagen_publicacion" src="./Imagenes/Publicacion/Publicacion_2.jpg" alt="LIGA INFANTIL F6 - LA 2011 NEGRO DEL DECA">
+                                <h1 class="titulo_publicacion">LA 2011 NEGRO DEL DECA</h1>
+                            </a>
+                            <p class="descripcion_publicacion">la categoría 2011 ATLETICO "NEGRO" jugo contra ESTUDIANTES BLANCO en cancha DECANA.</p>
+                        </div>
+                        <div class="publicaciones">
+                            <a href="#">
+                                <img class="imagen_publicacion" src="./Imagenes/Publicacion/Publicacion_3.jpg" alt="LIGA INFANTIL F6 - LA 2010 DEL DECA">
+                                <h1 class="titulo_publicacion">LA 2010 DEL DECA</h1>
+                            </a>
+                            <p class="descripcion_publicacion">En cancha de GALEANO a las 10:20, la 2010 DECANA jugo contra GALEANO ROSA por la 6ta fecha de la liga posadeña infantil.</p>
+                        </div>
+                        <div class="publicaciones">
+                            <a href="#">
+                                <img class="imagen_publicacion" src="./Imagenes/Publicacion/Publicacion_4.jpg" alt="LIGA INFANTIL F6 - LA 2014 DECANA">
+                                <h1 class="titulo_publicacion">LA 2014 DECANA</h1>
+                            </a>
+                            <p class="descripcion_publicacion">En cancha del DECA a las 12:20hs de hoy, la 2014 de ATLETICO recibió a ESTUDIANTES por la 6ta fecha de la liga posadeña infantil.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <section class="contenedor_contacto_footer">
+                <a class="contactos_footer" target="_blank" href="#">
+                    <div>
+                        <img class="imagen_contacto" id="WhatsApp_contacto" src="./Imagenes/Icono/Redes/whatsapp.png" alt="WhatsApp">
+                    </div>
+                    <p>+5493764839756</p>
+                </a>
+                <a class="contactos_footer" target="_blank" href="#">
+                    <div>
+                        <img class="imagen_contacto" id="mail_contacto" src="./Imagenes/Icono/Objetos/mail_w.png" alt="mail">
+                    </div>
+                    <p>clubatleticoposadas1912@gmail.com</p>
+                </a>
+                <a class="contactos_footer" target="_blank" href="#">
+                    <div>
+                        <img class="imagen_contacto" id="instagram_contacto" src="./Imagenes/Icono/Redes/instagram.png" alt="Instagram">
+                    </div>
+                    <p>Club Atlético Posadas</p>
+                </a>
+            </section>
+            <div class="contenedor_footer">    
+                    <div class="contenedor_parte_uno_footer">
+                        <div class="imagen_texto_decano_footer">
+                            <a href="index.html"><img class="escudo_club_atletico_footer" src="./Imagenes/atletico_posadas/deca-con-estrella.png" alt="Escudo Atlético Posadas"></a>
+                            <p class="lugar_atletico_footer">Av. Acevedo 3302, Posadas Misiones, Argentina.</p>
+                        </div>
+                        <section class="contenedor_redes_footer">
+                            <div class="redes_footer">
+                                <div class="redes">
+                                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100089322312368"><img class="redes_imagenes" id="facebook" src="./Imagenes/Icono/Redes/Facebook.png" alt="Facebook"></a>
+                                </div>
+                                <div class="redes">
+                                    <a target="_blank" href="https://www.instagram.com/clubatleticoposadasoficial"><img class="redes_imagenes" id="instagram" src="./Imagenes/Icono/Redes/instagram.png" alt="Instagram"></a>
+                                </div>
+                                <div class="redes">   
+                                    <a target="_blank" href=""><img class="redes_imagenes" id="kicks" src="./Imagenes/Icono/Redes/kicks.png" alt="Kick"></a>
+                                </div>
+                                <div class="redes">
+                                    <a target="_blank" href=""><img class="redes_imagenes" id="youtube" src="./Imagenes/Icono/Redes/youtube.png" alt="Youtube"></a>
+                                </div>
+                                <div class="redes">
+                                    <a target="_blank" href=""><img class="redes_imagenes" id="WhatsApp" src="./Imagenes/Icono/Redes/whatsapp.png" alt="WhatsApp"></a>
+                                </div>
+                            </div> 
+                        </section>
+                    </div>    
+                <section class="copyrigth_footer">
+                    <div class="copyrigth">
+                        <p>© 2024 Club Atlético Posadas. Sitio Web Oficial.</p>
+                    </div>
+                    <section class="desarrollo_web_footer">
+                        <p>Desarrollado por:</p>
+                        <div class="ivan_gfx_footer">
+                            <a target="_blank" href="https://www.instagram.com/iv.gfx/">
+                                <img id="ivan_gfx" src="./Imagenes/ivgfx/hol2.png" alt="Ivan_gfx">
+                            </a>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </footer>
+    </body>
+</html>

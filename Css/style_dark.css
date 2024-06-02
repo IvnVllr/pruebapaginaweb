@@ -1,0 +1,26 @@
+body.darkmode{
+    background: rgb(20 19 19);
+    color: #fafafa;
+    transition: 0.3s ease-in-out;
+}
+
+.fixture_partidos_darkmode{
+    background-color: #141313;
+    transition: all 0.3s ease-in-out;
+}
+
+.numeracion_ultima_noticia_darkmode{
+    color: #fafafa;
+    transition: all 0.3s ease-in-out;
+}
+
+.titulo_ultima_noticia_darkmode{
+    color: #fafafa;
+    transition: all 0.3s ease-in-out;
+}
+
+.ivess_darkmode{
+    filter: grayscale(1);
+    transition: all 0.1s ease-in-out;
+}
+

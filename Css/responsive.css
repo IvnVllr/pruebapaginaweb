@@ -1,0 +1,831 @@
+
+/* ------------------------------------ */
+/* MEDIA QUERY -------------------------*/
+/* CELULARES ---------------------------*/
+/* ------------------------------------ */
+
+
+@media screen and (max-width: 475px)  {
+
+    :root{
+        --altura_header: 80px;
+        --top_altura_header:-50px;
+    }
+
+
+    body{
+        margin: 0;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+
+    /* botones flotantes */
+
+    .icon_boton_scroll {
+        width: 25px;
+        height: 25px;
+    }
+    /*--- CARATULA ---- */
+
+    /* PORTADA */
+
+    .contenedor_main_header{
+        width: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .portada .imagen_noticia{
+        height: 13em;
+        right: 0;
+    }
+
+    .texto_portada{
+        position: relative;
+        bottom: 61px;
+        width: auto;
+    }
+
+    .representante_portada{
+        position: relative;
+    }
+
+    .representante_portada a{
+        width: 14em;
+        transition: none;
+        font-size: 13px;
+        padding: 0.4em;
+    }
+
+    .titulo_noticias h1 a{
+        width: 19.5em;
+    }
+
+    .titulo_portada a{
+        right: 0;
+        transition: none;
+        font-size: 15px;
+        transition: none;
+    }
+
+    .fecha_portada{
+        font-weight: 300;
+        font-size: 13px;
+    }
+
+
+    /* -- BOTONES -------- */
+
+    /* BOTONES LISTA FIXTURE */
+
+    .boton_liga{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        gap: 0.5em;
+        padding: 0.5em;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .boton_liga p{
+        width: auto;
+    }
+
+    .boton_imagen {
+        width: 2em;
+    }
+
+
+    /* ------- FIXTURE */
+
+    /* LISTA FIXTURE */
+
+    .fixture_liga{
+        justify-content: center;
+        gap: 1em;
+        padding: 0.7em;
+    }
+
+    .fixture_liga_próximo{
+        padding-left: 0;
+        flex-direction: column;
+    }
+
+    .lugar_nombre_liga{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fixture_logo_liga{
+        width: 40px;
+        object-fit: contain;
+    }
+   
+    .fixture_liga_nombre{
+        width: auto;
+        font-size: 18px;
+        margin: auto;
+    }
+
+    .fixture_liga_ciudad{
+        font-size: 12px;
+    }
+
+    .fixture_liga_nombre_proximo{
+        font-size: 16px;
+        margin: auto;
+        width: auto;
+    }
+
+    .fixture_liga_ciudad_proximo{
+        font-size: 13px;
+    }
+
+    .fixture_nombre_equipo{
+        font-size: 12px;
+        width: 90px;
+    }
+
+
+    .fixture_imagen_equipo{
+        width: 20px;
+        object-fit: contain;
+    }
+
+    .fixture_partidos{
+        gap: 0.2em;
+        width: auto;
+        padding: 1em 1em;
+    }
+
+    .fixture_texto_partidos{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fixture_estado_partido{
+        font-size: 12px;
+    }
+
+    .fixture_puntaje_final{
+        font-size: 18px;
+        margin: 5px auto;
+    }
+
+    .fixture_fecha_partido{
+        font-size: 14px;
+    }
+
+    /*---------- PUBLICACIONES Y NOTICIAS DIV -------------*/
+
+    .contenedor_publicacion_noticias{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .publicaciones_noticias{
+        width: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .encabezado_zona_publicacion{
+        width: auto;
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    .publicaciones{
+        width: auto;
+    }
+
+    .imagen_publicacion{
+        width: 20em;
+        transition: none;
+    }
+
+    .imagen_publicacion:hover{
+        width: 20em;
+        transition: none;
+        padding: 0;
+        top: 0;
+        transition: none;
+    }
+
+    .titulo_publicacion {
+        font-size: 1.5em;
+        margin-top: 1em;
+        transition: none;
+    }
+
+    .titulo_publicacion:hover{
+        color: #fff;
+        transition: none;
+    }
+
+
+    .sponsors_noticias_ultima_noticia{
+        width: 100%;
+        padding: 0;
+    }
+
+    .contenedor_publicaciones{
+        width: auto;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .articulo_ultima_noticia{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: space-between;
+    }
+
+    .articulo_ultima_noticia h1{
+        width: auto;
+    }
+
+    .lista_ultima_noticia{
+        color: #fafafa;
+        background-color: #0e0e0e;
+        transition: none;
+    }
+
+    .numeracion_ultima_noticia{
+        border-right: 2px solid rgb(231, 200, 21);
+        color: rgb(231, 200, 21);
+        transition: none;
+    }
+    
+    .sponsors{
+        display: flex;
+        width: auto;
+        margin: auto;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        padding-top: 4em; 
+    }
+
+    #ivess {
+        width: 15em;
+        object-fit: contain;
+    }
+
+
+
+    /* ------------- footer  */
+
+    /* contacto footer */
+
+    .contenedor_contacto_footer{
+        width: auto;
+        margin: auto;
+        flex-direction: column;
+        padding: 1em;
+        gap: 0.7em;
+    }
+
+    .contactos_footer{
+        font-size: 14px;
+        margin: 0;
+        transition: none;
+    }
+
+    .contactos_footer:hover{
+        color: #fafafa;
+        transition: none;
+    }
+
+    .contactos_footer div{
+        border: 1px solid #fafafa;
+        background-color: #1d1d17;
+        transition: none;
+    }
+
+    .contactos_footer:hover > div{
+        border: 1px solid #fafafa;
+        background-color: #1d1d17;
+        transition: none;
+    }
+
+
+    .imagen_contacto{
+        width: 15px;
+    }
+
+    /*  Footer CopyRigth  */
+
+    .contenedor_parte_uno_footer{
+        width: auto;
+        flex-direction: column;
+    }
+
+    .imagen_texto_decano_footer{
+        gap: 0.5em;
+        margin-bottom: 1em;
+    }
+
+    .escudo_club_atletico_footer{
+        width: 12em;
+        margin: 0;
+    }
+
+    .lugar_atletico_footer{
+        width: auto;
+        font-size: 13px;
+    }
+
+    .redes_footer{
+        gap: 1.4em;
+    }
+
+    .redes:hover{
+        background-color: #121311;
+        transition: none;
+    }
+
+    .redes:hover .redes_imagenes{
+        filter: invert(0%);
+        transition: none;
+    }
+
+    .copyrigth_footer{  
+        gap: 0;
+        width: auto;
+        flex-direction: column-reverse;
+    }
+
+    .copyrigth{
+        font-size: 11px ;
+    }
+
+    #ivan_gfx{
+        width: 7em;
+    }
+}
+
+@media screen and (320px <= width < 375px){
+    .fixture_nombre_equipo{
+        width: 74px;
+    }
+}
+
+/* ----------------------------------- */
+/* MEDIA QUERY ------------------------*/
+/* TABLETS ---------------------------*/ 
+/* ---------------------------------- */
+
+
+@media screen and (475px < width <= 1024px)  {
+
+    :root{
+        --altura_header: 80px;
+        --top_altura_header:-50px;
+    }
+
+
+    body{
+        margin: 0;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    /* ------------- CARATULA ------------- */
+
+    /* PORTADA */
+
+    .contenedor_main_header{
+        width: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .portada .imagen_noticia{
+        height: 28em;
+        right: 0;
+    }
+
+    .texto_portada{
+        position: relative;
+        bottom: 101px;
+        width: auto;
+        padding: 15px;
+    }
+
+    .representante_portada{
+        position: relative;
+    }
+
+    .representante_portada a{
+        width: 14em;
+        transition: none;
+        font-size: 20px;
+        padding: 0.4em;
+    }
+
+    .titulo_noticias h1 a{
+        width: auto;
+    }
+
+    .titulo_portada a{
+        right: 0;
+        transition: none;
+        font-size: 30px;
+        transition: none;
+    }
+
+    .fecha_portada{
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+
+    /* ------------- BOTONES ------------- */
+
+    /* BOTONES LISTA FIXTURE */
+
+    .boton_liga{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        gap: 0.5em;
+        padding: 0.5em;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .boton_liga p{
+        width: auto;
+    }
+
+    .boton_imagen {
+        width: 2.3em;
+    }
+
+
+    /* ------------- FIXTURE ------------- */
+
+    /* LISTA FIXTURE */
+
+    .fixture_liga{
+        justify-content: center;
+        gap: 1em;
+        padding: 0.7em;
+    }
+
+    .fixture_liga_próximo{
+        padding-left: 0;
+        flex-direction: column;
+    }
+
+    .lugar_nombre_liga{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fixture_logo_liga{
+        width: 43px;
+        object-fit: contain;
+    }
+   
+    .fixture_liga_nombre{
+        width: auto;
+        font-size: 20px;
+        margin: auto;
+    }
+
+    .fixture_liga_ciudad{
+        font-size: 14px;
+    }
+
+    .fixture_liga_nombre_proximo{
+        font-size: 18px;
+        margin: auto;
+        width: auto;
+    }
+
+    .fixture_liga_ciudad_proximo{
+        font-size: 14px;
+    }
+    
+
+    .fixture_nombre_equipo{
+        font-size: 15px;
+        width: 140px;
+    }
+
+    .fixture_imagen_equipo{
+        width: 25px;
+        object-fit: contain;
+    }
+
+    .fixture_partidos{
+        gap: 0.5em;
+        width: auto;
+        padding: 1em 1em;
+    }
+
+    .fixture_texto_partidos{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fixture_estado_partido{
+        font-size: 13px;
+    }
+
+    .fixture_puntaje_final{
+        font-size: 20px;
+        margin: 5px auto;
+    }
+
+    .fixture_fecha_partido{
+        font-size: 16px;
+    }
+
+    /*---------- PUBLICACIONES Y NOTICIAS DIV -------------*/
+    
+    .contenedor_publicacion_noticias{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+    }
+
+
+    /*PUBLICACIONES Y NOTICIAS DIV */
+
+    
+    .publicaciones_noticias{
+        width: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .encabezado_zona_publicacion{
+        width: auto;
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+
+    .publicaciones{
+        width: auto;
+    }
+
+    .imagen_publicacion{
+        width: 30em;
+        transition: none;
+    }
+
+    .imagen_publicacion:hover{
+        width: 20em;
+        transition: none;
+        padding: 0;
+        top: 0;
+        transition: none;
+    }
+
+    .titulo_publicacion {
+        font-size: 2.5em;
+        margin-top: 1em;
+        transition: none;
+    }
+
+    .titulo_publicacion:hover{
+        color: #fff;
+        transition: none;
+    }
+
+
+    .sponsors_noticias_ultima_noticia{
+        width: auto;
+    }
+
+    .contenedor_publicaciones{
+        width: auto;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .articulo_ultima_noticia{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: space-between;
+    }
+
+    .articulo_ultima_noticia h1{
+        width: auto;
+    }
+
+    .lista_ultima_noticia{
+        color: #fafafa;
+        background-color: #0e0e0e;
+        transition: none;
+    }
+
+    .numeracion_ultima_noticia{
+        border-right: 2px solid rgb(231, 200, 21);
+        color: rgb(231, 200, 21);
+        transition: none;
+    }
+    
+    .sponsors{
+        display: flex;
+        width: auto;
+        margin: auto;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        padding-top: 4em; 
+    }
+
+    #ivess {
+        width: 15em;
+        object-fit: contain;
+    }
+
+    /* ------------- footer ------------- */
+
+    /* contacto footer */
+
+    .contenedor_contacto_footer{
+        width: auto;
+        margin: auto;
+        flex-direction: column;
+        padding: 1em;
+        gap: 0.7em;
+    }
+
+    .contactos_footer{
+        font-size: 14px;
+        margin: 0;
+        transition: none;
+    }
+
+    .contactos_footer:hover{
+        color: #fafafa;
+        transition: none;
+    }
+
+    .contactos_footer div{
+        border: 1px solid #fafafa;
+        background-color: #1d1d17;
+        transition: none;
+    }
+
+    .contactos_footer:hover > div{
+        border: 1px solid #fafafa;
+        background-color: #1d1d17;
+        transition: none;
+    }
+
+
+    .imagen_contacto{
+        width: 15px;
+    }
+
+    /*  Footer CopyRigth  */
+
+    .contenedor_parte_uno_footer{
+        width: auto;
+        flex-direction: column;
+    }
+
+    .imagen_texto_decano_footer{
+        gap: 0.5em;
+        margin-bottom: 1em;
+    }
+
+    .escudo_club_atletico_footer{
+        width: 12em;
+        margin: 0;
+    }
+
+    .lugar_atletico_footer{
+        width: auto;
+        font-size: 13px;
+    }
+
+    .redes_footer{
+        gap: 1.4em;
+    }
+
+    .redes:hover{
+        background-color: #121311;
+        transition: none;
+    }
+
+    .redes:hover .redes_imagenes{
+        filter: invert(0%);
+        transition: none;
+    }
+
+    .copyrigth_footer{  
+        gap: 0;
+        width: auto;
+        flex-direction: column-reverse;
+    }
+
+    .copyrigth{
+        font-size: 11px ;
+    }
+
+    #ivan_gfx{
+        width: 7em;
+    }
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+
+@media screen and (1024px < width <= 1280px){
+    .titulo_portada a{
+        font-size: 30px;
+    }
+
+    .portada .imagen_noticia {
+        display: flex;
+        width: 43em;
+        height: 30em;
+        object-fit: cover;
+        flex-direction: row;
+        right: 0;
+    }
+
+    .titulo_noticias h1{
+        width: 100%;
+    }
+   
+    .representante_portada a {
+        margin-left: 25px;
+    }
+
+    .fecha_portada {
+        margin-left: 25px;
+    }
+
+    .contenedor_publicacion_noticias{
+        display: block;
+    }
+    
+    .publicaciones_noticias{
+        width: auto;
+    }
+
+    .contenedor_publicaciones{
+        width: auto;
+        flex-wrap: wrap;
+        font-size: 14px;
+        flex-direction: row;
+    }
+    
+    .encabezado_zona_publicacion{
+        width: 60%;
+    }
+
+    .sponsors_noticias_ultima_noticia{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+
+}

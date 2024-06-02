@@ -1,0 +1,15 @@
+@media screen and (width < 1280px) {
+    .ocultar_navegacion{
+        display: none;
+    }
+
+    .menu_hamburguesa{
+        display: flex;
+    }
+}
+
+@media screen and (320px <= width < 1280px)  {
+    .barra_nav_sidebar{
+        width: 100vw;
+    }
+}
